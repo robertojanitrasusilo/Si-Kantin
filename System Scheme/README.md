@@ -1,4 +1,4 @@
-# Alur Cerita Aplikasi Kantin
+# Alur Program Aplikasi Kantin
 
 ## 1. Pendaftaran dan Login:
    - Pengguna baru mendaftar dengan mengisi formulir pendaftaran, atau pengguna yang sudah terdaftar login ke akun mereka.
