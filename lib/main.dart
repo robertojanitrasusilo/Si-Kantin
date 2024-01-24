@@ -1,6 +1,8 @@
+import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:sikantin/views/signin_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sikantin/views/splash_screen.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           useMaterial3: true,
           textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme)),
-      home: SignInPage(),
+      home: SplashScreen(),
     );
   }
 }
@@ -27,3 +29,8 @@ bool isSeePasword = false;
 bool isToSignUp = false;
 bool isChecked = false;
 bool seePasword = false;
+//* Animasi atas ke bawah
+SharedAxisTransitionType verticalTransition = SharedAxisTransitionType.vertical;
+//* Animasi kiri ke kanan
+SharedAxisTransitionType horizontalTransition =
+    SharedAxisTransitionType.horizontal;
