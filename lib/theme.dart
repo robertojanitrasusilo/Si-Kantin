@@ -1,5 +1,6 @@
 // Design of the theme
 import 'package:flutter/material.dart';
+import 'package:sikantin/main.dart';
 import 'package:sikantin/views/signin_page.dart';
 // 1. Color
 

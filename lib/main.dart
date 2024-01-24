@@ -11,13 +11,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size mobileSize = MediaQuery.of(context).size;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           useMaterial3: true,
           textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme)),
-      home: SignInScreen(),
+      home: SignInPage(),
     );
   }
 }
+
+//* Variable buat ngatur state pada widget
+Size? ratioScreenSize;
+bool isSeePasword = false;
+bool isToSignUp = false;
+bool isChecked = false;
+bool seePasword = false;
