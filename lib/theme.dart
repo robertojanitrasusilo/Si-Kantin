@@ -8,6 +8,7 @@ Color whiteColor = const Color(0xFFFFFFFF);
 Color creamColor = const Color(0xFFFECDA6);
 Color yellowColor = const Color(0xFFFF9130);
 Color primaryColor = const Color(0xFFFF5B22);
+Color grey60 = Color(0xFF2E2B2A);
 Color grey200 = const Color(0xFFBDB7B6);
 Color grey300 = const Color(0xFF9A908E);
 Color grey400 = const Color(0xFF746C6B);

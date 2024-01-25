@@ -2,6 +2,7 @@ import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:sikantin/main.dart';
 import 'package:sikantin/theme.dart';
+import 'package:sikantin/views/home_page.dart';
 import 'package:sikantin/views/signup_page.dart';
 import 'package:sikantin/widgets/fieldtext.dart';
 import 'package:sikantin/widgets/icon_tombol.dart';
@@ -110,7 +111,10 @@ class _SignInPageState extends State<SignInPage> {
                               childContent: Text('Sign In',
                                   style:
                                       mediumStyle.copyWith(color: whiteColor)),
-                              onPressed: () {},
+                              onPressed: () => Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => HomePage())),
                               styleButton: primaryButtonStyle,
                             ),
                             SizedBox(height: 60),
